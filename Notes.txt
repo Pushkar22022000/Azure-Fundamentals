@@ -1,0 +1,187 @@
+1) what is cloud computing?
+practice of using a netwrok of remote servers hosted on the internet to store,manage, and process data rather than a local server or a personal computer.
+
+cloud hosting - multiple physical machines that acts as one system. The system is abstracted into ultiple cloud services.
+
+4 types-
+compute
+storage
+networking
+databases
+
+2) wt is microsoft and azure?
+microsoft calls their cloud provider service as microsoft azure.
+
+azure - Cloud service provider (CSP)
+
+3) types of cloud computing
+Saas (software as a service) eg. gmail
+Paas (Platform as a Service) eg. heroku
+Iaas (Infrastructure as a Service) eg. microsoft azure, oracle cloud, aws.
+
+4) Cloud deployment model
+Public cloud (cloud-native)
+Private cloud (on-premise) verything built in companys datacentre
+HYbrid (both on-premise and CSP)
+
+Cross-cloud (using multiple CSP) 
+
+5)We can save 75% by using azure intead on on-premise.
+
+6) Cloud architecture terminologies
+
+1.Availability - ability to ensure a service remians available Highly Available(HA), ensuring there is no single point of failure.
+
+2.Scalability -  ability to grow rapidly 
+vertical Scaling, HIgh scalability (increase your capacity based on inc demand of traffic)
+
+3.Elasticity - ability to shrink and grow to meet the demand. (ability of inc or dec your capacity based on current demand of traffic )
+
+4.Fault Tolerance - ability to prevent a failure
+
+5. Disaster Recovery -  ability to recover from a failure, Highly Durable(DR)
+
+evolution of computing
+dedicated ->virtual machines -> containers ->functions
+
+7) global infrastructure - paired regions
+
+->each region is paired with another region 300 miles away.
+->one region is updated at a time to ensure no outages.
+
+Availability Zone(AZ) - a physical location made up of one or more datacenter.
+ datacenter -  secured building that contains hundreds of thousands of computers.
+
+8) fault and update domain
+
+9) storage service
+Aure blob storage
+azure disk storage(ssd /hdd)
+azure file storage
+azure queue storage
+azure table storage
+
+10) db services
+azure cosmos db
+azure sql db
+azure db for mysql/psql/mariaDB
+azure db migration service
+
+11)azure integration services
+azure api apps
+azure service bus
+azure logic apps
+azure api management
+
+12)developer and mobile terminologies
+real time messaging
+azure app service(deploying web apps)
+visual studio (code editor)
+
+13)azure devops service
+azure boards(like github)
+azure repos
+azure pipelines
+etc 
+
+14) azure quickstart template
+
+15)azure virtual network and subnets
+virtual network (vNet) is a logically isolated section of the azure network where you can launch your azure resources. you can choose a range of IPs using CIDR range
+
+16) cloud native networking services
+azure dns
+azure vNet
+azure application gateway
+
+17) enterprise /hybrid netwroking services
+
+azure express route (connection between on-premise to azure cloud)
+virtual wAN
+azure connection (VPN connecton)
+Virtual netwrok gateway
+
+18) azure traffic manager
+
+19)AZURE dns(you can create DNS zones and manage your DNS records)
+
+19) azure load balancer
+(evenly distributes incoming network traffic across a group of backend resources)
+
+20) scale sets (group together identical virtual machines)
+
+21)Iot services
+internet of things
+- a network of internet connected objects (usually hardware) able to collect and exchange data.
+-smart watches
+-smart fridges
+-drones
+-security cameras
+
+Iot central (connects Iot device to the cloud)
+Iot hub
+Iot edge
+
+22)big data and analytics services
+azure synapse analytics( sql data ware house)
+HDinsight (open source analytics software)->hadoop,spark
+azure databricks
+
+23)AI/ML services
+
+AI - machines that performs human behaviours
+ML - MACHINE GETS BETTER AT A TASK WITHOUT EXPlict programming
+DL -  machines that hae an artificial neural netwrok inspired by the humna brain to solve complex problems
+
+azure machine learning service
+
+24)ai services
+
+25)serverless services
+
+26)azure portal - web based unifies console that provides alternative to command line tools.
+
+27) azure poweshell
+install azure in windows powershell
+
+azure cloud shell
+
+azure CLI(command line interface)
+eg :  az create ,update.delete. view etc
+
+28) creating azure functions
+29) azure security (CJIS/CSA/GDPR/etc)
+
+30) azure active directory(cloud based identity and acces management service)
+
+31) multi-factor authentication (MFA)
+-> after you fill in the username/email and password, you have to use a second device such as phone to confirm that its you logging in.
+
+32) azure security center
+
+33)key vault (helps you safeguard cryptographic keys and ther screts using cloud apps and services)
+
+34)azure DDos protection
+
+35)azure firewall
+
+36) azure information protection (protects sensitive information such as emails documents, restricted access etc)
+
+37) application gateway
+web-traffic load balancer (application firewall can be attached for additional protection)
+
+28)advanced threat protection
+
+29) microsoft security development cycle(SDL)
+INDUSTRY-LEADING SOFTWARE SECURITY ASSURANCE process
+
+30) AZURE POLICIES
+
+31) role based access controls
+role definations is a collection of permissions that can be performed such as read,write,delete, etc
+
+32)lock resources (you can lock a subscription to prevent other users from accidently deleteing or modifyimg critical resources)
+
+33)management groups
+
+35) service credits (compensation for under-performing) azure product or service)
